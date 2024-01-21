@@ -1,0 +1,13 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+@font-face {
+  font-family: Rick_and_morty;
+  src: url('assets/fonts/rick_and_morty.ttf');
+  /* [font-weight: <peso>];
+  [font-style: <estilo>]; */
+}

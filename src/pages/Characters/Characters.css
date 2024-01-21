@@ -1,0 +1,33 @@
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 3rem;
+
+    && .loading {
+        color: #B2E028;
+    }
+}
+
+.MuiPagination-ul {
+
+    && li {
+
+        && button {
+            color: #B2E028;
+        }
+
+        && div {
+            color: #B2E028;
+        }
+    }
+}
+
+    
+.pagination {
+    padding: 3rem 0 0 0;
+}
+
+
+

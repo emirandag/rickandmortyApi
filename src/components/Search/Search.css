@@ -1,0 +1,41 @@
+.search {
+    position: relative;
+    width: 50%;
+    height: 5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+
+    && .search-lupa {
+        width: 2rem;
+        position: absolute;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        left: 1rem;
+        user-select: none;
+        cursor: pointer;
+        font-size: 1.2rem;
+        color: grey;
+    }
+
+    && .search-input {
+
+        width: 100%;
+        height: 3rem;
+        border-radius: 0.5rem;
+        font-size: 1.2rem;
+        padding: 0 4rem;
+        border: none;
+        outline: none;
+        background-color: #121212;
+        color: #c5c5c5;
+    }
+
+    && .search-input:focus {
+        border: 2px solid #B2E028;
+    }
+
+}
